@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "starter:install": "npm install",
+    "starter:update": "npm update",
+    "starter:build": "rimraf ./dist && swc ./src -d ./dist --copy-files"
+  },
+  "devDependencies": {
+    "@altv/types-client": "^2.4.1",
+    "@altv/types-natives": "^1.4.8",
+    "@altv/types-server": "^2.5.4",
+    "@altv/types-shared": "^1.3.5",
+    "@altv/types-worker": "^1.0.7",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.21",
+    "@types/node": "^18.11.11",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.3"
+  }
+}
